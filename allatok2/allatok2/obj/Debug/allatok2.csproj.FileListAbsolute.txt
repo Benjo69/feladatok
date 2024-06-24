@@ -1,0 +1,7 @@
+D:\allatok2\allatok2\bin\Debug\allatok2.exe.config
+D:\allatok2\allatok2\bin\Debug\allatok2.exe
+D:\allatok2\allatok2\bin\Debug\allatok2.pdb
+D:\allatok2\allatok2\obj\Debug\allatok2.csproj.AssemblyReference.cache
+D:\allatok2\allatok2\obj\Debug\allatok2.csproj.CoreCompileInputs.cache
+D:\allatok2\allatok2\obj\Debug\allatok2.exe
+D:\allatok2\allatok2\obj\Debug\allatok2.pdb
