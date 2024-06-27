@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\feladatok\\allatverseny\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{47A4A62A-9296-4E45-A3C7-94B053533728}|allatverseny\\allatverseny.csproj|d:\\feladatok\\allatverseny\\allatverseny\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A4A62A-9296-4E45-A3C7-94B053533728}|allatverseny\\allatverseny.csproj|solutionrelative:allatverseny\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\feladatok\\allatverseny\\allatverseny\\Program.cs",
+              "RelativeDocumentMoniker": "allatverseny\\Program.cs",
+              "ToolTip": "D:\\feladatok\\allatverseny\\allatverseny\\Program.cs",
+              "RelativeToolTip": "allatverseny\\Program.cs",
+              "ViewState": "AQIAALkAAAAAAAAAAAAkwBEAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T08:00:27.843Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

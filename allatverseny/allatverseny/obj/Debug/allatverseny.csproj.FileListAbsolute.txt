@@ -1,0 +1,7 @@
+D:\feladatok\allatverseny\allatverseny\bin\Debug\allatverseny.exe.config
+D:\feladatok\allatverseny\allatverseny\bin\Debug\allatverseny.exe
+D:\feladatok\allatverseny\allatverseny\bin\Debug\allatverseny.pdb
+D:\feladatok\allatverseny\allatverseny\obj\Debug\allatverseny.csproj.AssemblyReference.cache
+D:\feladatok\allatverseny\allatverseny\obj\Debug\allatverseny.csproj.CoreCompileInputs.cache
+D:\feladatok\allatverseny\allatverseny\obj\Debug\allatverseny.exe
+D:\feladatok\allatverseny\allatverseny\obj\Debug\allatverseny.pdb

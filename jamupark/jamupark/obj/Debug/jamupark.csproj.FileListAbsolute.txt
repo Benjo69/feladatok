@@ -1,0 +1,7 @@
+D:\feladatok\jamupark\jamupark\bin\Debug\jamupark.exe.config
+D:\feladatok\jamupark\jamupark\bin\Debug\jamupark.exe
+D:\feladatok\jamupark\jamupark\bin\Debug\jamupark.pdb
+D:\feladatok\jamupark\jamupark\obj\Debug\jamupark.csproj.AssemblyReference.cache
+D:\feladatok\jamupark\jamupark\obj\Debug\jamupark.csproj.CoreCompileInputs.cache
+D:\feladatok\jamupark\jamupark\obj\Debug\jamupark.exe
+D:\feladatok\jamupark\jamupark\obj\Debug\jamupark.pdb
