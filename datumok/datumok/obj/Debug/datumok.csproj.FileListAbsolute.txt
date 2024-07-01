@@ -1,0 +1,10 @@
+D:\feladatok\datumok\datumok\bin\Debug\datumok.exe.config
+D:\feladatok\datumok\datumok\bin\Debug\datumok.exe
+D:\feladatok\datumok\datumok\bin\Debug\datumok.pdb
+D:\feladatok\datumok\datumok\obj\Debug\datumok.csproj.AssemblyReference.cache
+D:\feladatok\datumok\datumok\obj\Debug\datumok.Form1.resources
+D:\feladatok\datumok\datumok\obj\Debug\datumok.Properties.Resources.resources
+D:\feladatok\datumok\datumok\obj\Debug\datumok.csproj.GenerateResource.cache
+D:\feladatok\datumok\datumok\obj\Debug\datumok.csproj.CoreCompileInputs.cache
+D:\feladatok\datumok\datumok\obj\Debug\datumok.exe
+D:\feladatok\datumok\datumok\obj\Debug\datumok.pdb
