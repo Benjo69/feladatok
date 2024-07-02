@@ -1,0 +1,10 @@
+D:\feladatok\uszoverseny\uszoverseny\obj\Debug\uszoverseny.csproj.AssemblyReference.cache
+D:\feladatok\uszoverseny\uszoverseny\obj\Debug\uszoverseny.Form1.resources
+D:\feladatok\uszoverseny\uszoverseny\obj\Debug\uszoverseny.Properties.Resources.resources
+D:\feladatok\uszoverseny\uszoverseny\obj\Debug\uszoverseny.csproj.GenerateResource.cache
+D:\feladatok\uszoverseny\uszoverseny\obj\Debug\uszoverseny.csproj.CoreCompileInputs.cache
+D:\feladatok\uszoverseny\uszoverseny\bin\Debug\uszoverseny.exe.config
+D:\feladatok\uszoverseny\uszoverseny\bin\Debug\uszoverseny.exe
+D:\feladatok\uszoverseny\uszoverseny\bin\Debug\uszoverseny.pdb
+D:\feladatok\uszoverseny\uszoverseny\obj\Debug\uszoverseny.exe
+D:\feladatok\uszoverseny\uszoverseny\obj\Debug\uszoverseny.pdb
