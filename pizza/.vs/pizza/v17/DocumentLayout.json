@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\feladatok\\pizza\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0FD426C3-7615-4761-B424-58EEDF8EAFEA}|pizza\\pizza.csproj|d:\\feladatok\\pizza\\pizza\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FD426C3-7615-4761-B424-58EEDF8EAFEA}|pizza\\pizza.csproj|solutionrelative:pizza\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FD426C3-7615-4761-B424-58EEDF8EAFEA}|pizza\\pizza.csproj|d:\\feladatok\\pizza\\pizza\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FD426C3-7615-4761-B424-58EEDF8EAFEA}|pizza\\pizza.csproj|solutionrelative:pizza\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FD426C3-7615-4761-B424-58EEDF8EAFEA}|pizza\\pizza.csproj|d:\\feladatok\\pizza\\pizza\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0FD426C3-7615-4761-B424-58EEDF8EAFEA}|pizza\\pizza.csproj|solutionrelative:pizza\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FD426C3-7615-4761-B424-58EEDF8EAFEA}|pizza\\pizza.csproj|d:\\feladatok\\pizza\\pizza\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FD426C3-7615-4761-B424-58EEDF8EAFEA}|pizza\\pizza.csproj|solutionrelative:pizza\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\feladatok\\pizza\\pizza\\Program.cs",
+              "RelativeDocumentMoniker": "pizza\\Program.cs",
+              "ToolTip": "D:\\feladatok\\pizza\\pizza\\Program.cs",
+              "RelativeToolTip": "pizza\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T10:23:44.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\feladatok\\pizza\\pizza\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "pizza\\Form1.Designer.cs",
+              "ToolTip": "D:\\feladatok\\pizza\\pizza\\Form1.Designer.cs",
+              "RelativeToolTip": "pizza\\Form1.Designer.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAArwEgAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T09:41:48.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\feladatok\\pizza\\pizza\\Form1.cs",
+              "RelativeDocumentMoniker": "pizza\\Form1.cs",
+              "ToolTip": "D:\\feladatok\\pizza\\pizza\\Form1.cs",
+              "RelativeToolTip": "pizza\\Form1.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAjwFMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T08:35:08.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\feladatok\\pizza\\pizza\\Form1.cs",
+              "RelativeDocumentMoniker": "pizza\\Form1.cs",
+              "ToolTip": "D:\\feladatok\\pizza\\pizza\\Form1.cs [Design]",
+              "RelativeToolTip": "pizza\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T08:29:32.283Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
