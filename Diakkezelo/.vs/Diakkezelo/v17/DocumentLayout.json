@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\feladatok\\Diakkezelo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{08881C70-363C-49C5-906D-77C6D75280B5}|Diakkezelo\\Diakkezelo.csproj|d:\\feladatok\\diakkezelo\\diakkezelo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{08881C70-363C-49C5-906D-77C6D75280B5}|Diakkezelo\\Diakkezelo.csproj|solutionrelative:diakkezelo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08881C70-363C-49C5-906D-77C6D75280B5}|Diakkezelo\\Diakkezelo.csproj|d:\\feladatok\\diakkezelo\\diakkezelo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08881C70-363C-49C5-906D-77C6D75280B5}|Diakkezelo\\Diakkezelo.csproj|solutionrelative:diakkezelo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\feladatok\\Diakkezelo\\Diakkezelo\\Form1.cs",
+              "RelativeDocumentMoniker": "Diakkezelo\\Form1.cs",
+              "ToolTip": "D:\\feladatok\\Diakkezelo\\Diakkezelo\\Form1.cs",
+              "RelativeToolTip": "Diakkezelo\\Form1.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAQwFoAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T07:36:27.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\feladatok\\Diakkezelo\\Diakkezelo\\Form1.cs",
+              "RelativeDocumentMoniker": "Diakkezelo\\Form1.cs",
+              "ToolTip": "D:\\feladatok\\Diakkezelo\\Diakkezelo\\Form1.cs [Design]",
+              "RelativeToolTip": "Diakkezelo\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T07:36:13.641Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
