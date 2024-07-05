@@ -1,6 +1,7 @@
-﻿namespace retoxikáló
+﻿
+namespace retoxikáló
 {
-    partial class SzamlaForm
+    partial class sugoForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,33 +29,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.rchTxtSzamla = new System.Windows.Forms.RichTextBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(sugoForm));
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
-            // rchTxtSzamla
+            // richTextBox1
             // 
-            this.rchTxtSzamla.Cursor = System.Windows.Forms.Cursors.Default;
-            this.rchTxtSzamla.Location = new System.Drawing.Point(12, 12);
-            this.rchTxtSzamla.Name = "rchTxtSzamla";
-            this.rchTxtSzamla.ReadOnly = true;
-            this.rchTxtSzamla.Size = new System.Drawing.Size(483, 396);
-            this.rchTxtSzamla.TabIndex = 0;
-            this.rchTxtSzamla.Text = "";
+            this.richTextBox1.Location = new System.Drawing.Point(13, 13);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ReadOnly = true;
+            this.richTextBox1.Size = new System.Drawing.Size(242, 148);
+            this.richTextBox1.TabIndex = 0;
+            this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
             // 
-            // SzamlaForm
+            // sugoForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(505, 426);
-            this.Controls.Add(this.rchTxtSzamla);
-            this.Name = "SzamlaForm";
-            this.Text = "Számla";
+            this.ClientSize = new System.Drawing.Size(265, 174);
+            this.Controls.Add(this.richTextBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MinimizeBox = false;
+            this.Name = "sugoForm";
+            this.Text = "Sugó";
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.RichTextBox rchTxtSzamla;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }

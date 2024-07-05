@@ -79,12 +79,14 @@
             this.mentésToolStripMenuItem.Name = "mentésToolStripMenuItem";
             this.mentésToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.mentésToolStripMenuItem.Text = "Mentés";
+            this.mentésToolStripMenuItem.Click += new System.EventHandler(this.mentésToolStripMenuItem_Click);
             // 
             // kilépésToolStripMenuItem
             // 
             this.kilépésToolStripMenuItem.Name = "kilépésToolStripMenuItem";
             this.kilépésToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.kilépésToolStripMenuItem.Text = "Kilépés";
+            this.kilépésToolStripMenuItem.Click += new System.EventHandler(this.kilépésToolStripMenuItem_Click);
             // 
             // itallapToolStripMenuItem
             // 
@@ -98,6 +100,7 @@
             this.galeriaToolStripMenuItem.Name = "galeriaToolStripMenuItem";
             this.galeriaToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
             this.galeriaToolStripMenuItem.Text = "Galéria";
+            this.galeriaToolStripMenuItem.Click += new System.EventHandler(this.galeriaToolStripMenuItem_Click);
             // 
             // sugoToolStripMenuItem
             // 
@@ -110,6 +113,7 @@
             this.nevjegyToolStripMenuItem.Name = "nevjegyToolStripMenuItem";
             this.nevjegyToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
             this.nevjegyToolStripMenuItem.Text = "Névjegy";
+            this.nevjegyToolStripMenuItem.Click += new System.EventHandler(this.nevjegyToolStripMenuItem_Click);
             // 
             // openFileDialog1
             // 
@@ -127,7 +131,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Nyertes kocsma";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

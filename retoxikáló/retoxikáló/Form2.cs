@@ -22,6 +22,21 @@ namespace retoxikáló
         private List<TextBox> txtBoxok = new List<TextBox>();
         private int bal = 10, fent = 10, chkXMeret = 250, chkYTav = 40, txtXMeret = 30, txtYMeret = 17, xKoz = 5;
 
+        private void fizetToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            foreach (Ital item in italok)
+            {
+                item.Fizet();
+            }
+        }
+
+        private void szamlatKerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SzamlaForm szlaForm = new SzamlaForm();
+            szlaForm.Kitolt(italok);
+            szlaForm.ShowDialog();
+        }
+
         private void btnRendel_Click(object sender, EventArgs e)
         {
             bool valasztott = false, vanHibasAdag = false;

@@ -1,0 +1,14 @@
+S:\feladatok\retoxikáló\retoxikáló\bin\Debug\retoxikáló.exe.config
+S:\feladatok\retoxikáló\retoxikáló\bin\Debug\retoxikáló.exe
+S:\feladatok\retoxikáló\retoxikáló\bin\Debug\retoxikáló.pdb
+S:\feladatok\retoxikáló\retoxikáló\obj\Debug\retoxikáló.csproj.AssemblyReference.cache
+S:\feladatok\retoxikáló\retoxikáló\obj\Debug\retoxikáló.Form1.resources
+S:\feladatok\retoxikáló\retoxikáló\obj\Debug\retoxikáló.ItalLapForm.resources
+S:\feladatok\retoxikáló\retoxikáló\obj\Debug\retoxikáló.SzamlaForm.resources
+S:\feladatok\retoxikáló\retoxikáló\obj\Debug\retoxikáló.GaleriaForm.resources
+S:\feladatok\retoxikáló\retoxikáló\obj\Debug\retoxikáló.sugoForm.resources
+S:\feladatok\retoxikáló\retoxikáló\obj\Debug\retoxikáló.Properties.Resources.resources
+S:\feladatok\retoxikáló\retoxikáló\obj\Debug\retoxikáló.csproj.GenerateResource.cache
+S:\feladatok\retoxikáló\retoxikáló\obj\Debug\retoxikáló.csproj.CoreCompileInputs.cache
+S:\feladatok\retoxikáló\retoxikáló\obj\Debug\retoxikáló.exe
+S:\feladatok\retoxikáló\retoxikáló\obj\Debug\retoxikáló.pdb

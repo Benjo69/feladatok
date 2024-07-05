@@ -32,7 +32,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.szamlatKerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fizetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnRendel = new System.Windows.Forms.Button();
+            this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -55,8 +58,25 @@
             // 
             // contextMenuStrip1
             // 
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.szamlatKerToolStripMenuItem,
+            this.fizetToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(135, 48);
+            // 
+            // szamlatKerToolStripMenuItem
+            // 
+            this.szamlatKerToolStripMenuItem.Name = "szamlatKerToolStripMenuItem";
+            this.szamlatKerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.szamlatKerToolStripMenuItem.Text = "Számlát kér";
+            this.szamlatKerToolStripMenuItem.Click += new System.EventHandler(this.szamlatKerToolStripMenuItem_Click);
+            // 
+            // fizetToolStripMenuItem
+            // 
+            this.fizetToolStripMenuItem.Name = "fizetToolStripMenuItem";
+            this.fizetToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.fizetToolStripMenuItem.Text = "Fizet";
+            this.fizetToolStripMenuItem.Click += new System.EventHandler(this.fizetToolStripMenuItem_Click);
             // 
             // btnRendel
             // 
@@ -81,7 +101,8 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "ItalLapForm";
-            this.Text = "Form2";
+            this.Text = "Ital lap";
+            this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -93,5 +114,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.Button btnRendel;
+        private System.Windows.Forms.ToolStripMenuItem szamlatKerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem fizetToolStripMenuItem;
     }
 }

@@ -46,7 +46,7 @@ namespace retoxikáló
             Image kep;
             for (int i = 0; i < kepekSzama; i++)
             {
-                kep = Image.FromFile("kep" + i + ".jfif");
+                kep = Image.FromFile("kep" + i+1 + ".jfif");
                 kepek.Add(kep);
             }
         }
@@ -90,6 +90,56 @@ namespace retoxikáló
                 italok.Add(new Ital(adatok[0], int.Parse(adatok[1])));
                 sor = sr.ReadLine();
             }
+        }
+
+        private void mentésToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                StreamWriter sw = null;
+                try
+                {
+                    string fajlNev = saveFileDialog1.FileName;
+                    sw = new StreamWriter(fajlNev);
+                    FajlbaIr(sw);
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("Hiba a fájl írásakor", "hiba");
+                }
+                finally
+                {
+                    if (sw != null)
+                    {
+                        sw.Close();
+                    }
+                }
+            }
+        }
+        private void FajlbaIr(StreamWriter sw)
+        {
+            foreach (Ital item in italok)
+            {
+                sw.WriteLine(item.Konyvelesbe());
+            }
+        }
+
+        private void galeriaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            GaleriaForm galeriaForm = new GaleriaForm();
+            galeriaForm.Atad(kepek);
+            galeriaForm.Show();
+        }
+
+        private void nevjegyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Készült: prog2 gyakorlaton.", "információ");
+        }
+
+        private void kilépésToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DialogResult valasz = MessageBox.Show("Biztosan Kilép?", "Megerősítés", MessageBoxButtons.YesNo);
+            if (valasz == DialogResult.Yes) this.Close();
         }
     }
     class Ital

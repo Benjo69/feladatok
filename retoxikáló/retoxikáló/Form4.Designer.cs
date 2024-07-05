@@ -52,6 +52,7 @@
             this.btnBal.Size = new System.Drawing.Size(75, 23);
             this.btnBal.TabIndex = 1;
             this.btnBal.UseVisualStyleBackColor = true;
+            this.btnBal.Click += new System.EventHandler(this.btnBal_Click);
             // 
             // btnJobb
             // 
@@ -62,6 +63,7 @@
             this.btnJobb.Size = new System.Drawing.Size(75, 23);
             this.btnJobb.TabIndex = 2;
             this.btnJobb.UseVisualStyleBackColor = true;
+            this.btnJobb.Click += new System.EventHandler(this.btnJobb_Click);
             // 
             // GaleriaForm
             // 
@@ -72,7 +74,7 @@
             this.Controls.Add(this.btnBal);
             this.Controls.Add(this.pictureBox1);
             this.Name = "GaleriaForm";
-            this.Text = "Form4";
+            this.Text = "Galéria";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

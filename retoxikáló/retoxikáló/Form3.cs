@@ -16,5 +16,17 @@ namespace retoxikáló
         {
             InitializeComponent();
         }
+
+        internal void Kitolt(List<Ital> italok)
+        {
+            rchTxtSzamla.Clear();
+            foreach (Ital item in italok)
+            {
+                if (item.Mennyiseg != 0)
+                {
+                    rchTxtSzamla.Text += item.ToString() + "\r\n";
+                }
+            }
+        }
     }
 }
