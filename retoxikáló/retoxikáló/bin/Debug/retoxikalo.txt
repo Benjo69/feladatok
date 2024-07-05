@@ -1,0 +1,20 @@
+Vodka; 1200 Ft
+Gin Tonic; 1500 Ft
+Whisky; 2000 Ft
+Rum; 1300 Ft
+Tequila; 1400 Ft
+Mojito; 1600 Ft
+Pina Colada; 1700 Ft
+Long Island Iced Tea; 1800 Ft
+Martini; 1500 Ft
+Bloody Mary; 1600 Ft
+Margarita; 1700 Ft
+Old Fashioned; 1900 Ft
+Manhattan; 2000 Ft
+Cosmopolitan; 1600 Ft
+Daiquiri; 1700 Ft
+Mai Tai; 1800 Ft
+Irish Coffee; 1900 Ft
+Aperol Spritz; 1500 Ft
+Negroni; 1800 Ft
+Sangria; 1400 Ft
