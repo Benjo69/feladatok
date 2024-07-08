@@ -1,0 +1,14 @@
+D:\feladatok\úszóverseny2\úszóverseny2\bin\Debug\úszóverseny2.exe.config
+D:\feladatok\úszóverseny2\úszóverseny2\bin\Debug\úszóverseny2.exe
+D:\feladatok\úszóverseny2\úszóverseny2\bin\Debug\úszóverseny2.pdb
+D:\feladatok\úszóverseny2\úszóverseny2\obj\Debug\úszóverseny2.csproj.AssemblyReference.cache
+D:\feladatok\úszóverseny2\úszóverseny2\obj\Debug\úszóverseny2.Form1.resources
+D:\feladatok\úszóverseny2\úszóverseny2\obj\Debug\úszóverseny2.VersenyForm.resources
+D:\feladatok\úszóverseny2\úszóverseny2\obj\Debug\úszóverseny2.Properties.Resources.resources
+D:\feladatok\úszóverseny2\úszóverseny2\obj\Debug\úszóverseny2.csproj.GenerateResource.cache
+D:\feladatok\úszóverseny2\úszóverseny2\obj\Debug\úszóverseny2.csproj.CoreCompileInputs.cache
+D:\feladatok\úszóverseny2\úszóverseny2\obj\Debug\úszóverseny2.exe
+D:\feladatok\úszóverseny2\úszóverseny2\obj\Debug\úszóverseny2.pdb
+D:\feladatok\úszóverseny2\úszóverseny2\obj\Debug\úszóverseny2.EredmenyForm.resources
+D:\feladatok\úszóverseny2\úszóverseny2\obj\Debug\úszóverseny2.ZaszloForm.resources
+D:\feladatok\úszóverseny2\úszóverseny2\obj\Debug\úszóverseny2.NevjegyForm.resources
