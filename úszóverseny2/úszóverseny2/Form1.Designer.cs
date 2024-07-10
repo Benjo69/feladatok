@@ -85,6 +85,7 @@
             this.kilepesToolStripMenuItem.Name = "kilepesToolStripMenuItem";
             this.kilepesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.kilepesToolStripMenuItem.Text = "Kilépés";
+            this.kilepesToolStripMenuItem.Click += new System.EventHandler(this.kilepesToolStripMenuItem_Click);
             // 
             // versenyToolStripMenuItem
             // 

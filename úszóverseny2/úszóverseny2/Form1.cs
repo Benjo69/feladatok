@@ -38,7 +38,6 @@ namespace úszóverseny2
                     AdatBevitel(sr);
                     mentesToolStripMenuItem1.Enabled = true;
                     versenyToolStripMenuItem.Enabled = true;
-                    versenyForm.Show();
                 }
                 catch (Exception ex)
                 {
@@ -125,6 +124,12 @@ namespace úszóverseny2
             string keszito = "Benjo";
             NevjegyForm about = new NevjegyForm(keszito);
             about.ShowDialog();
+        }
+
+        private void kilepesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DialogResult valasz = MessageBox.Show("Biztosan Kilép?", "Megerősítés", MessageBoxButtons.YesNo);
+            if (valasz == DialogResult.Yes) this.Close();
         }
     }
 

@@ -33,6 +33,7 @@
             // 
             // txtNevjegy
             // 
+            this.txtNevjegy.Enabled = false;
             this.txtNevjegy.Location = new System.Drawing.Point(12, 12);
             this.txtNevjegy.Name = "txtNevjegy";
             this.txtNevjegy.Size = new System.Drawing.Size(262, 20);

@@ -35,7 +35,7 @@
             // 
             this.pnlOrszagok.Location = new System.Drawing.Point(12, 12);
             this.pnlOrszagok.Name = "pnlOrszagok";
-            this.pnlOrszagok.Size = new System.Drawing.Size(423, 286);
+            this.pnlOrszagok.Size = new System.Drawing.Size(361, 219);
             this.pnlOrszagok.TabIndex = 0;
             // 
             // ZaszloForm
@@ -43,7 +43,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(447, 310);
+            this.ClientSize = new System.Drawing.Size(385, 244);
             this.Controls.Add(this.pnlOrszagok);
             this.Name = "ZaszloForm";
             this.Text = "Résztvevő országok";
