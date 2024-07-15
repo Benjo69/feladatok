@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\feladatok\\StoringImages\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CADA3976-2F65-4BC2-904B-7A6A144BA9E2}|StoringImages\\StoringImages.csproj|d:\\feladatok\\storingimages\\storingimages\\model\\imagehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADA3976-2F65-4BC2-904B-7A6A144BA9E2}|StoringImages\\StoringImages.csproj|solutionrelative:storingimages\\model\\imagehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADA3976-2F65-4BC2-904B-7A6A144BA9E2}|StoringImages\\StoringImages.csproj|D:\\feladatok\\StoringImages\\storingimages\\model\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADA3976-2F65-4BC2-904B-7A6A144BA9E2}|StoringImages\\StoringImages.csproj|solutionrelative:storingimages\\model\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ImageHelper.cs",
+              "DocumentMoniker": "D:\\feladatok\\StoringImages\\StoringImages\\Model\\ImageHelper.cs",
+              "RelativeDocumentMoniker": "StoringImages\\Model\\ImageHelper.cs",
+              "ToolTip": "D:\\feladatok\\StoringImages\\StoringImages\\Model\\ImageHelper.cs",
+              "RelativeToolTip": "StoringImages\\Model\\ImageHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T09:16:51.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dbHelper.cs",
+              "DocumentMoniker": "D:\\feladatok\\StoringImages\\StoringImages\\Model\\dbHelper.cs",
+              "RelativeDocumentMoniker": "StoringImages\\Model\\dbHelper.cs",
+              "ToolTip": "D:\\feladatok\\StoringImages\\StoringImages\\Model\\dbHelper.cs",
+              "RelativeToolTip": "StoringImages\\Model\\dbHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T09:09:38.168Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
