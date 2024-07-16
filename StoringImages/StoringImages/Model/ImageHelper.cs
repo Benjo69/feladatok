@@ -1,19 +1,20 @@
-using Kribo.Class;
 using System;
 using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
 using System.Data.SQLite;
-namespace Kribo.Class
+using System.Data.Entity.Core.Common.CommandTrees.ExpressionBuilder;
+
+namespace StoringImages.Model
 {
-    class imageHelper
+    internal class imageHelper
     {
         private dBHelper helper = null;
-
         private string fileLocation = string.Empty;
         private bool isSucces = false;
         private int maxImageSize = 2097152;
+
         private string FileLocation
         {
             get { return fileLocation; }
@@ -22,10 +23,12 @@ namespace Kribo.Class
                 fileLocation = value;
             }
         }
+
         public Boolean GetSucces()
         {
             return isSucces;
         }
+
         private Image LoadImage()
         {
             //Create an instance of the Image Class/Object
@@ -165,6 +168,7 @@ namespace Kribo.Class
                 }
             }
         }
+
         public void SaveAsImage(Int32 imageID)
         {
             //set variables
@@ -198,7 +202,7 @@ namespace Kribo.Class
                 //if not added the default extention to the filename
                 string defaultExt = ".png";
                 int pos = -1;
-                string[] ext = new string[7] {".tiff", ".gif", ".png", ".jpg", ".jpeg", ".bmp", ".nef"};
+                string[] ext = new string[7] { ".tiff", ".gif", ".png", ".jpg", ".jpeg", ".bmp", ".nef" };
                 string extFound = string.Empty;
                 string filename = dlg.FileName.Trim();
                 for (int i = 0; i < ext.Length; i++)
@@ -223,7 +227,7 @@ namespace Kribo.Class
                 {
                     // Show the data in the datagridview
                     dataRow = helper.DataSet.Tables[0].Rows[0];
-                    image = new Image((string)dataRow["imageFileName"],(byte[])dataRow["imageBlob"],(long)dataRow["imageFileSizeBytes"]);
+                    image = new Image((string)dataRow["imageFileName"], (byte[])dataRow["imageBlob"], (long)dataRow["imageFileSizeBytes"]);
                     // Saves the Image via a FileStream created by the OpenFile method.
                     using (FileStream stream = new FileStream(filename, FileMode.Create))
                     {

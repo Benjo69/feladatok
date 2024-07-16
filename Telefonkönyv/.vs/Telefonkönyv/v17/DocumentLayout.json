@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Telefonk\u00F6nyv\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0C67A6E3-3969-4D8F-8F96-11F54B654F23}|Telefonk\u00F6nyv\\Telefonk\u00F6nyv.csproj|d:\\telefonk\u00F6nyv\\telefonk\u00F6nyv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C67A6E3-3969-4D8F-8F96-11F54B654F23}|Telefonk\u00F6nyv\\Telefonk\u00F6nyv.csproj|solutionrelative:telefonk\u00F6nyv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Telefonk\u00F6nyv\\Telefonk\u00F6nyv\\Program.cs",
+              "RelativeDocumentMoniker": "Telefonk\u00F6nyv\\Program.cs",
+              "ToolTip": "D:\\Telefonk\u00F6nyv\\Telefonk\u00F6nyv\\Program.cs",
+              "RelativeToolTip": "Telefonk\u00F6nyv\\Program.cs",
+              "ViewState": "AQIAAGIBAAAAAAAAAAAQwIoBAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T07:33:12.739Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.IO;
-namespace Kribo.Class
+namespace StoringImages.Model
 {
     class dBFunctions
     {

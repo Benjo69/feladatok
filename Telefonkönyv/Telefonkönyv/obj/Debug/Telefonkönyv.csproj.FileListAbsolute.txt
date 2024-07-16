@@ -1,0 +1,7 @@
+D:\Telefonkönyv\Telefonkönyv\bin\Debug\Telefonkönyv.exe.config
+D:\Telefonkönyv\Telefonkönyv\bin\Debug\Telefonkönyv.exe
+D:\Telefonkönyv\Telefonkönyv\bin\Debug\Telefonkönyv.pdb
+D:\Telefonkönyv\Telefonkönyv\obj\Debug\Telefonkönyv.csproj.AssemblyReference.cache
+D:\Telefonkönyv\Telefonkönyv\obj\Debug\Telefonkönyv.csproj.CoreCompileInputs.cache
+D:\Telefonkönyv\Telefonkönyv\obj\Debug\Telefonkönyv.exe
+D:\Telefonkönyv\Telefonkönyv\obj\Debug\Telefonkönyv.pdb

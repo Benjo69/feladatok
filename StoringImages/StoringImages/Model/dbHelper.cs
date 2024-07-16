@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Data;
 using System.Data.SQLite;
-namespace Kribo.Class
+namespace StoringImages.Model
 {
     class dBHelper
     {
@@ -37,8 +37,7 @@ namespace Kribo.Class
                 // Make a DataAdapter
                 m_dataAdapter = new SQLiteDataAdapter(commandText,m_connection);
                 // Link a eventhandler to the RowUpdated-event of theDataAdapter
-                //m_dataAdapter.RowUpdated += new SqlRowUpdatedEventHandler
-                (m_dataAdapter_RowUpdated);
+                //m_dataAdapter.RowUpdated += new SqlRowUpdatedEventHandler(m_dataAdapter_RowUpdated);
                 m_dataAdapter.RowUpdated += m_dataAdapter_RowUpdated;
                 m_dataSet = new DataSet();
                 // For a save --> create Commands
@@ -117,7 +116,7 @@ namespace Kribo.Class
                 if (newID == System.DBNull.Value == false)
                 {
                     // Put the ID in the DataRow
-                    e.Row[m_fieldNameID] = Convert.ToInt32(nieuweID);
+                    e.Row[m_fieldNameID] = Convert.ToInt32(newID);
                 }
             }
         }
