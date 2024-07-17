@@ -1,0 +1,15 @@
+D:\feladatok\telefonkonyvwinforms\telefonkonyvwinforms\bin\Debug\telefonkonyvwinforms.exe.config
+D:\feladatok\telefonkonyvwinforms\telefonkonyvwinforms\bin\Debug\telefonkonyvwinforms.exe
+D:\feladatok\telefonkonyvwinforms\telefonkonyvwinforms\bin\Debug\telefonkonyvwinforms.pdb
+D:\feladatok\telefonkonyvwinforms\telefonkonyvwinforms\obj\Debug\telefonkonyvwinforms.csproj.AssemblyReference.cache
+D:\feladatok\telefonkonyvwinforms\telefonkonyvwinforms\obj\Debug\telefonkonyvwinforms.Form1.resources
+D:\feladatok\telefonkonyvwinforms\telefonkonyvwinforms\obj\Debug\telefonkonyvwinforms.Properties.Resources.resources
+D:\feladatok\telefonkonyvwinforms\telefonkonyvwinforms\obj\Debug\telefonkonyvwinforms.csproj.GenerateResource.cache
+D:\feladatok\telefonkonyvwinforms\telefonkonyvwinforms\obj\Debug\telefonkonyvwinforms.csproj.CoreCompileInputs.cache
+D:\feladatok\telefonkonyvwinforms\telefonkonyvwinforms\obj\Debug\telefonkonyvwinforms.exe
+D:\feladatok\telefonkonyvwinforms\telefonkonyvwinforms\obj\Debug\telefonkonyvwinforms.pdb
+D:\feladatok\telefonkonyvwinforms\telefonkonyvwinforms\obj\Debug\telefonkonyvwinforms.listaForm.resources
+D:\feladatok\telefonkonyvwinforms\telefonkonyvwinforms\obj\Debug\telefonkonyvwinforms.ujKontakt.resources
+D:\feladatok\telefonkonyvwinforms\telefonkonyvwinforms\obj\Debug\telefonkonyvwinforms.Keresés.resources
+D:\feladatok\telefonkonyvwinforms\telefonkonyvwinforms\obj\Debug\telefonkonyvwinforms.torlesForm.resources
+D:\feladatok\telefonkonyvwinforms\telefonkonyvwinforms\obj\Debug\telefonkonyvwinforms.modositasForm.resources
