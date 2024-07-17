@@ -1,12 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace telefonkonyvwinforms
@@ -34,7 +27,6 @@ namespace telefonkonyvwinforms
             {
                 while (fs.Position < fs.Length)
                 {
-                    long position = fs.Position;
                     Person p = new Person
                     {
                         Nev = reader.ReadString(),
@@ -74,8 +66,13 @@ namespace telefonkonyvwinforms
                         lblSzemely.Visible = true;
                         txtSzemelySzam.Visible = true;
                         btnModosit.Visible = true;
+                        found = true;
                     }
                 }
+            }
+            if (!found)
+            {
+                MessageBox.Show("Az adatot nem találtuk");
             }
         }
 
@@ -95,7 +92,6 @@ namespace telefonkonyvwinforms
             {
                 while (fs.Position < fs.Length)
                 {
-                    long position = fs.Position;
                     Person p = new Person
                     {
                         Nev = reader.ReadString(),
@@ -119,9 +115,7 @@ namespace telefonkonyvwinforms
                         p.Email = txtEmail.Text;
                         p.SzemelyAzon = txtSzemelySzam.Text;
                     }
-                    fs.Seek(-(
-                        sizeof(long) + // mble_no
-                        sizeof(char) * (p.Nev.Length + p.Cim.Length + p.ApaNeve.Length + p.AnyaNeve.Length + p.Neme.Length + p.Email.Length + p.SzemelyAzon.Length + 7)), SeekOrigin.Current); // 7 for the number of strings
+                    fs.Seek(-(sizeof(long) + sizeof(char) + (p.Nev.Length + p.Cim.Length + p.ApaNeve.Length + p.AnyaNeve.Length + p.Neme.Length + p.Email.Length + p.SzemelyAzon.Length)), SeekOrigin.Current);
 
                     // Write the data to the file
                     writer.Write(p.Telefonszam);
@@ -131,17 +125,16 @@ namespace telefonkonyvwinforms
 
                     found = true;
                 }
-
-                if (found)
-                {
-                    MessageBox.Show("Az adatok módosítva lettek");
-                    this.Close();
-                }
-                else
-                {
-                    MessageBox.Show("Az adatot nem találtuk");
-                    this.Close();
-                }
+            }
+            if (found)
+            {
+                MessageBox.Show("Az adatok módosítva lettek");
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Az adatot nem találtuk");
+                this.Close();
             }
         }
     }

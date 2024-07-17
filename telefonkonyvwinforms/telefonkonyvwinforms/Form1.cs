@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace telefonkonyvwinforms
@@ -15,9 +8,9 @@ namespace telefonkonyvwinforms
         Person p = new Person();
         ujKontakt ujkontakt = new ujKontakt();
         Keresés keresés = new Keresés();
-        listaForm listaForm = new listaForm();
         modositasForm modositasForm = new modositasForm();
         torlesForm torlesForm = new torlesForm();
+        
         public Form1()
         {
             InitializeComponent();
@@ -46,6 +39,7 @@ namespace telefonkonyvwinforms
 
         private void btnLista_Click(object sender, EventArgs e)
         {
+            listaForm listaForm = new listaForm();
             listaForm.Show();
         }
 
