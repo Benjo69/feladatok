@@ -47,6 +47,7 @@
             this.btnKeres = new System.Windows.Forms.Button();
             this.txtSzemely = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
+            this.btnModosit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtSzemelySzam
@@ -221,12 +222,25 @@
             this.label9.TabIndex = 35;
             this.label9.Text = "Írd be a kapcsolat nevét a módosításhoz:";
             // 
+            // btnModosit
+            // 
+            this.btnModosit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnModosit.Location = new System.Drawing.Point(241, 511);
+            this.btnModosit.Name = "btnModosit";
+            this.btnModosit.Size = new System.Drawing.Size(75, 23);
+            this.btnModosit.TabIndex = 37;
+            this.btnModosit.Text = "Módosít";
+            this.btnModosit.UseVisualStyleBackColor = true;
+            this.btnModosit.Visible = false;
+            this.btnModosit.Click += new System.EventHandler(this.btnModosit_Click);
+            // 
             // modositasForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(328, 546);
+            this.Controls.Add(this.btnModosit);
             this.Controls.Add(this.txtSzemely);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.btnKeres);
@@ -274,5 +288,6 @@
         private System.Windows.Forms.Button btnKeres;
         private System.Windows.Forms.TextBox txtSzemely;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Button btnModosit;
     }
 }
